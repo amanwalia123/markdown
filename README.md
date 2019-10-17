@@ -29,7 +29,37 @@ Markdown is a writing tool which lets you write plain text while tagging the for
 
 ___
 
+## Preferred tools to use Markdown
 
+Personally I prefer VS Code to write markdown, as it provide helpful extensions to generate HTML and PDF from markdown files very easily. Alot of other advanced text editors like Sublime text, Atom, and eclipse(This is a IDE) do provide their own markdown support but I found usage with VS Code to be more smooth.
+
+You can download Visual studio code on windows using the following link:
+
+[https://az764295.vo.msecnd.net/stable/6ab598523be7a800d7f3eb4d92d7ab9a66069390/VSCodeUserSetup-x64-1.39.2.exe](https://az764295.vo.msecnd.net/stable/6ab598523be7a800d7f3eb4d92d7ab9a66069390/VSCodeUserSetup-x64-1.39.2.exe)
+
+and then run the installer to install it on local machine.
+
+Two helpful extensions for writing markdown are as follows:
+
+1. __Markdown PDF__ : https://marketplace.visualstudio.com/_apis/public/gallery/publishers/yzane/vsextensions/markdown-pdf/1.3.1/vspackage
+
+2. __Markdown All in One__ : https://marketplace.visualstudio.com/_apis/public/gallery/publishers/yzhang/vsextensions/markdown-all-in-one/2.5.1/vspackage
+
+
+Once you install VS Code and download the two extensions, follow the steps to install these extensions:
+
+1. Open Visual Studio Code.
+
+2. Press `Ctrl+Shift+p`. A header pop-up will appear. In there type : `>Extensions:Install from VSIX` and press `Enter`.
+
+3. This will open a file manager window asking for where the extensions are downloaded. Goto the particular location and select the extension one by one. It will automatically install them.
+
+4. `__Markdown PDF__` depeends on Google Chrome/Chromium to convert markdown. To make it point to already installed Google chrome, again press `Ctrl+Shift+p` to open header pop-up. In there type : `>Open Settings(JSON)` and press `Enter`.
+
+5. On the very top of the file add the following line ` "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",` like this:
+![alt text](json.png)
+
+6. Restart VS Code.
 
 ### Contents
 
