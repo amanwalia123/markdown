@@ -57,7 +57,7 @@ Once you install VS Code and download the two extensions, follow the steps to in
 4. __`Markdown PDF`__ depeends on Google Chrome/Chromium to convert markdown. To make it point to already installed Google chrome, again press `Ctrl+Shift+p` to open header pop-up. In there type : `>Open Settings(JSON)` and press `Enter`.
 
 5. On the very top of the file add the following line ` "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",` like this:
-![alt text](json.png)
+![alt text](json.PNG)
 
 6. Restart VS Code.
 
