@@ -290,7 +290,8 @@ ___
       ">
       ```
 
-      <img src="https://media.licdn.com/dms/image/C510BAQHDjJMzWUhMfg/company-logo_200_200/0?e=2159024400&v=beta&t=19_Z0-NTcopvhaoVQcyP-75Mhkp9Fh5jHEixMRSTZBc">
+      <img src="https://media.licdn.com/dms/image/C510BAQHDjJMzWUhMfg/company-logo_200_200/0?e=2159024400&v=beta&t=19_Z0-NTcopvhaoVQcyP-75Mhkp9Fh5jHEixMRSTZBc
+      ">
 
 
 
@@ -303,6 +304,7 @@ ___
                 print("Markdown is good")
             ```
         ```
+        *Output* :
         ```python
             def markdown():
                 print("Markdown is good")
@@ -319,7 +321,7 @@ ___
             ```   
         ```
 
-
+        *Output* :
         ```CPP
         #include <iostream>
 
@@ -336,15 +338,14 @@ ___
             echo "Markdown is good "
             mkdir markdown
             cd ./markdown
-          ```   
+           ```   
         ```
-      
+      *Output* :
       ```bash
         echo "Markdown is good "
         mkdir markdown
         cd ./markdown
       ```
-
 
 - ## Tables
 
